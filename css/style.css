@@ -14,6 +14,9 @@
 body {
     margin: 0;
     padding: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
     font-family: 'Open Sans', sans-serif;
     background-color: var(--tausta);
     color: var(--teksti);
@@ -28,6 +31,7 @@ header {
     border: 2px solid var(--teksti);
 }
 main {
+    flex: 1;
     font-size: 1.0em;
     line-height: 1.5em;
     padding-top: 80px;
@@ -116,16 +120,9 @@ header span {
     color: var(--tausta-vaalea);
 }
 
-.kriteerit {
-    max-width: 1200px;
-    width: 90%;
-}
-
 .kriteeri-otsikot,
 .kriteeri-rivi {
     display: flex;
-    align-items: flex-start;
-    gap: 40px;
 }
 
 .kriteeri-otsikot {
@@ -137,10 +134,6 @@ header span {
     font-size: 2em;
     color: var(--teksti-vaalea);
     margin: 0;
-}
-
-.opiskelija-otsikko {
-    flex: 1;
 }
 
 .kriteeri-rivi {
@@ -155,7 +148,6 @@ header span {
 }
 
 .kriteeri-rivi ul {
-    flex: 1;
     margin: 0;
     padding-left: 1.5em;
 }
