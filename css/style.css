@@ -39,6 +39,7 @@ section {
     width: 70%;
     margin: 20px auto;
 }
+
 .content {
     font-size: 1.0em;
 }
@@ -104,6 +105,52 @@ header span {
     font-size: 1.0em;
     background-color: var(--teksti-vaalea);
     color: var(--tausta-vaalea);
+}
+
+.kriteerit {
+    max-width: 1200px;
+    width: 90%;
+}
+
+.kriteeri-otsikot,
+.kriteeri-rivi {
+    display: flex;
+    align-items: flex-start;
+    gap: 40px;
+}
+
+.kriteeri-otsikot {
+    margin-bottom: 20px;
+}
+
+.kriteeri-otsikot h2 {
+    flex: 0 0 260px;
+    font-size: 2em;
+    color: var(--teksti-vaalea);
+    margin: 0;
+}
+
+.opiskelija-otsikko {
+    flex: 1;
+}
+
+.kriteeri-rivi {
+    margin-bottom: 20px;
+}
+
+.kriteeri-rivi h3 {
+    flex: 0 0 260px;
+    margin: 0;
+}
+
+.kriteeri-rivi ul {
+    flex: 1;
+    margin: 0;
+    padding-left: 1.5em;
+}
+
+.kriteeri-rivi li {
+    margin-bottom: 0.3rem;
 }
 
 footer {
