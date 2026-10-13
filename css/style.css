@@ -71,6 +71,15 @@ section {
     font-style: italic;
     line-height: 1.5em;
 }
+.osaamisen-arviointi {
+    font-size: 1.2em;
+    line-height: 1.2em;
+}
+
+.tutkinnon-muodostuminen {
+    font-size: 1.2em;
+    line-height: 1.2em;
+}
 
 h2 {
     font-size: 2.0em;
@@ -136,6 +145,8 @@ header span {
 
 .kriteeri-rivi {
     margin-bottom: 20px;
+    font-size: 1em;
+    line-height: 1em;
 }
 
 .kriteeri-rivi h3 {
