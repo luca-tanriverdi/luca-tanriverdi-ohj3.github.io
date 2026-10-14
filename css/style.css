@@ -91,6 +91,23 @@ h2 {
     margin-top: 30px;
 }
 
+.ammattitaitovaatimukset {
+    padding: 0;
+}
+
+.ammattitaitovaatimukset > li {
+    list-style-type: none;
+}
+
+.ammattitaitovaatimukset > li > ul {
+    border-left: var(--teksti-vaalea) solid 5px;
+}
+
+.ammattitaitovaatimukset > li > ul li{
+    padding: 0;
+    list-style-type: square;
+}
+
 header nav {
     background-color: var(--teksti-vaalea);
     color: var(--tausta);
