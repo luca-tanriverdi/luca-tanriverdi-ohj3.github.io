@@ -1,0 +1,37 @@
+@media only screen and (max-width: 800px){
+
+    header,
+    header > nav,
+    header nav a {
+        display: block;
+        float: none;
+        height: auto;
+        width: 100%;
+        text-align: center;
+        clear: both;
+        position: sticky
+    }
+    
+    section {
+        width: min(1000px, 90%);
+    }
+
+    header nav a {
+        padding: 5px 0;
+    }
+
+    .kriteeri-rivi,
+    .kriteeri-otsikot h2,
+    .kriteeri-rivi h2,
+    .kriteeri-rivi h3 {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        font-size: 0.9em;
+        grid-gap: 30px;
+        margin: auto;
+    }
+
+    .showcase div {
+        padding: 10px;
+    }
+}
