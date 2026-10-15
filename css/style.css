@@ -30,10 +30,41 @@ header {
     border: 2px solid var(--teksti);
     position: fixed;
 }
+
+header nav {
+    background-color: var(--teksti-vaalea);
+    color: var(--tausta);
+    text-align: center;
+}
+
+header nav a {
+    display: inline-block;
+    text-decoration: none;
+    color: var(--tausta);
+    margin: 0;
+    font-size: 1.2em;
+    padding: 10px;
+}
+
+header nav a:hover {
+    background-color: var(--tausta);
+    color: var(--teksti-vaalea);
+    border-radius: 5px;
+}
+
+header span {
+    display: block;
+    text-align: center;
+    font-size: 1.0em;
+    background-color: var(--teksti-vaalea);
+    color: var(--tausta-vaalea);
+}
+
 main {
     flex: 1;
     font-size: 1.0em;
     line-height: 1.5em;
+    padding-top: 5%;
 }
 
 section {
@@ -70,35 +101,6 @@ section {
     font-size: 1.4em;
     font-style: italic;
     line-height: 1.5em;
-}
-
-header nav {
-    background-color: var(--teksti-vaalea);
-    color: var(--tausta);
-    text-align: center;
-}
-
-header nav a {
-    display: inline-block;
-    text-decoration: none;
-    color: var(--tausta);
-    margin: 0;
-    font-size: 1.2em;
-    padding: 10px
-}
-
-header nav a:hover {
-    background-color: var(--tausta);
-    color: var(--teksti-vaalea);
-    border-radius: 5px;
-}
-
-header span {
-    display: block;
-    text-align: center;
-    font-size: 1.0em;
-    background-color: var(--teksti-vaalea);
-    color: var(--tausta-vaalea);
 }
 
 .osaamisen-arviointi {
