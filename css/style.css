@@ -26,8 +26,9 @@ header {
     color: var(--tausta);
     background-color: var(--tausta-tumma);
     width: 100%;
-    top: 0;
+    top: 20;
     border: 2px solid var(--teksti);
+    position: fixed;
 }
 main {
     flex: 1;
@@ -47,7 +48,9 @@ section {
 
 .showcase {
     background-color: var(--teksti-vaalea);
+    padding: 60px 0;
     width: 100%;
+    height: 200px;
 }
 
 .showcase div {
@@ -68,6 +71,36 @@ section {
     font-style: italic;
     line-height: 1.5em;
 }
+
+header nav {
+    background-color: var(--teksti-vaalea);
+    color: var(--tausta);
+    text-align: center;
+}
+
+header nav a {
+    display: inline-block;
+    text-decoration: none;
+    color: var(--tausta);
+    margin: 0;
+    font-size: 1.2em;
+    padding: 10px
+}
+
+header nav a:hover {
+    background-color: var(--tausta);
+    color: var(--teksti-vaalea);
+    border-radius: 5px;
+}
+
+header span {
+    display: block;
+    text-align: center;
+    font-size: 1.0em;
+    background-color: var(--teksti-vaalea);
+    color: var(--tausta-vaalea);
+}
+
 .osaamisen-arviointi {
     font-size: 1.2em;
     line-height: 1.2em;
@@ -99,33 +132,6 @@ h2 {
 .ammattitaitovaatimukset > li > ul li{
     padding: 0;
     list-style-type: square;
-}
-
-header nav {
-    background-color: var(--teksti-vaalea);
-    color: var(--tausta);
-}
-
-header nav a {
-    display: inline-block;
-    text-decoration: none;
-    color: var(--tausta);
-    margin: 0;
-    font-size: 1.2em;
-}
-
-header nav a:hover {
-    background-color: var(--tausta);
-    color: var(--teksti-vaalea);
-    border-radius: 5px;
-}
-
-header span {
-    display: block;
-    text-align: center;
-    font-size: 1.0em;
-    background-color: var(--teksti-vaalea);
-    color: var(--tausta-vaalea);
 }
 
 .kriteeri-otsikot,
