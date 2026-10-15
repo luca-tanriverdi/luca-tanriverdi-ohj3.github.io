@@ -26,7 +26,7 @@
     .kriteeri-rivi h3 {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
-        font-size: 0.9em;
+        font-size: 0.8em;
         grid-gap: 30px;
         margin: auto;
     }
